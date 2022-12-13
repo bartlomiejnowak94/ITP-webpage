@@ -33,7 +33,7 @@
                         <label for="check01"><span class="fa fa-bars"></span></label>
                         <ul class="submenu">
                             <li><a class="<?php if ($selected == "index") echo ' current'; ?>" href="index.php">Home</a></li>
-                            <li><a class="<?php if ($selected == "structure") echo ' current'; ?>" href="structure.php">Organization</a></li>
+                            <li><a class="<?php if ($selected == "structure") echo ' current'; ?>" href="structure.php">Structure</a></li>
                             <!-- <li><a class="<?php if ($selected == "people") echo ' current'; ?>" href="people.php">People</a></li> -->
                             <!-- <li><a class="<?php if ($selected == "research-groups") echo ' current'; ?>" href="research-groups.php">Research Groups</a></li> -->
                             <li><a class="<?php if ($selected == "projects") echo ' current'; ?>" href="projects.php">Projects</a></li>
@@ -45,7 +45,7 @@
                     <nav id="navbar">
                         <ul>
                             <li class="<?php if ($selected == "index") echo ' current'; ?>"><a href="index.php">Home</a></li>
-                            <li class="<?php if ($selected == "structure") echo ' current'; ?>"><a href="structure.php">Organization</a></li>
+                            <li class="<?php if ($selected == "structure") echo ' current'; ?>"><a href="structure.php">Structure</a></li>
                             <!-- <li class="<?php if ($selected == "people") echo ' current'; ?>"><a href="people.php">People</a></li> -->
                             <!-- <li class="<?php if ($selected == "research-groups") echo ' current'; ?>"><a href="research-groups.php">Research Groups</a></li> -->
                             <li class="<?php if ($selected == "projects") echo ' current'; ?>"><a href="projects.php">Projects</a></li>
