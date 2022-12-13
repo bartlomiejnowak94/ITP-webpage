@@ -6,7 +6,7 @@ $hod = true;
 // if not exist set false
 $picture = "Maciej-Maska.jpg";
 $name = "Prof. dr hab. Maciej";
-$surname = "Maska";
+$surname = "Maśka";
 $room = "262c/A1";
 $homepage = false;
 $mail = "maciej.maska@pwr.edu.pl";

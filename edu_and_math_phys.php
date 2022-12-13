@@ -20,6 +20,8 @@
         </div>
         <!-- Our team -->
         <?php include('includes/structure/people_by_divisions/division4/our_team.php'); ?>
+        <!-- Phd students -->
+        <?php include('includes/structure/people_by_divisions/division4/phd.php'); ?>
     </div>
 </section>
 <!-- Company -->
