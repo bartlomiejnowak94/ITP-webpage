@@ -64,9 +64,9 @@
                 </p>
             </div>
         </div>
-        <?php if ($superv) { $pieces = explode(" ", $superv); ?>
+        <?php if ($superv and $division) { $pieces = explode(" ", $superv); ?>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h3 class="supervisor">Supervisor:<a href=<?php echo "people.php#$pieces[0]$pieces[1]";?>> <b><nobr><?php echo $superv;?></nobr></b></a></h3>
+            <h3 class="supervisor">Supervisor:<a href=<?php echo "$division#$pieces[0]$pieces[1]";?>> <b><nobr><?php echo $superv;?></nobr></b></a></h3>
         </div>
         <?php } ?>
     </div>
