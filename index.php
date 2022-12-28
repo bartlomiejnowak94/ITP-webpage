@@ -1,7 +1,7 @@
 <!-- Header and navbar -->
 <?php 
     $selected = "index"; 
-    $header_text = "Instytut Fizyki Teoretycznej";
+    $header_text = "Institute Theoretical Physics";
     require('includes/main/header.php'); 
 ?>
 <!-- Main page -->

@@ -1,6 +1,15 @@
 <?php
     $dir = "includes/structure/people_by_divisions/division4/phd_students/";
-    if (count(scandir($dir)) != 2){
+    $files = scandir($dir);
+    $match = ".php";
+    $check = false;
+    foreach ($files as $file){
+        if (stripos($file, $match) == true){
+            $check = true;
+            break;
+        }
+    }
+    if ($check == true){
         echo '<div id="PHD-students" class="row center-xs center-sm center-md center-lg  middle-xs middle-sm middle-md middle-lg">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <h1>Our <span class="primary-text">PhD </span>students</h1>
@@ -8,9 +17,7 @@
     </div>';
     }
     echo '<div class="row center-xs center-sm center-md center-lg  middle-xs middle-sm middle-md middle-lg ">';
-    $division = "edu_and_math_phys.php.php";
-    $files = scandir($dir);
-    $match = ".php";
+    $division = "complex_matter.php";
     natcasesort($files);
     if ($files){
         foreach ($files as $file){

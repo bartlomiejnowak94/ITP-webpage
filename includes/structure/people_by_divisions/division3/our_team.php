@@ -9,7 +9,7 @@
         $match = ".php";
         natcasesort($files);
         foreach ($files as $file){
-            if (stripos($file, $match) !== false){
+            if (stripos($file, $match) == true){
                 include('our_team/'.$file.'');
                 include('Person.php');
             }
