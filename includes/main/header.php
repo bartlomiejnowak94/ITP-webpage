@@ -34,7 +34,7 @@
                             <a class="<?php if ($selected == "index") echo ' current'; ?>" href="index.php">Home</a>
                             <div id="Dropdownmain" class="<?php if ($selected == "structure"){ echo 'active-drop dropdown';} else {echo 'dropdown';} ?>"> 
                                 <button onclick="ShowContent()" class="dropbtn">
-                                    Structure <i class="fa fa-caret-down"></i>
+                                    Structure &#9660;
                                 </button>
                                 <div id="myDropdown" class="dropdown-content">
                                     <a href="structure.php">Main structure</a>

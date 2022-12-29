@@ -17,7 +17,7 @@
     </div>';
     }
     echo '<div class="row center-xs center-sm center-md center-lg  middle-xs middle-sm middle-md middle-lg ">';
-    $division = "complex_matter.php";
+    $division = "strongly_corr_sys.php";
     natcasesort($files);
     if ($files){
         foreach ($files as $file){

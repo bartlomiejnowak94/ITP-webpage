@@ -24,7 +24,5 @@
 <?php require('includes/main/company.php'); ?>
 <!-- Footer -->
 <?php require('includes/main/footer.php'); ?>
-<!-- To top button -->
-<a href="#main-header" id="to-top-button" class="button-scroll"></a>
 </body>
 </html>

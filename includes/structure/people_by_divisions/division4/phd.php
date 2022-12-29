@@ -17,7 +17,7 @@
     </div>';
     }
     echo '<div class="row center-xs center-sm center-md center-lg  middle-xs middle-sm middle-md middle-lg ">';
-    $division = "complex_matter.php";
+    $division = "edu_and_math_phys.php";
     natcasesort($files);
     if ($files){
         foreach ($files as $file){

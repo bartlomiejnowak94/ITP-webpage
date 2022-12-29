@@ -5,7 +5,7 @@
     </div>
     <!-- Slajd -->
     <div class="mySlides fade">
-        <a href="people.php#Open-Positions"><img src="images/slideshow/2.png" onContextMenu="return false;"></a>
+        <a href="structure.php#Open-Positions"><img src="images/slideshow/2.png" onContextMenu="return false;"></a>
     </div>
     <!-- Slajd -->
     <div class="mySlides fade">
