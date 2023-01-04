@@ -10,7 +10,7 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    /* overflow-x: hidden;  */
+    overflow-x: hidden; 
     /* font-family: 'Marcellus', serif; */
     font-family: 'Aleo', serif;
 }
@@ -50,6 +50,7 @@ img{
 .img-head{
     /* height: 150%; */
     width: 80%;
+    /* height: 85px; */
     float:left;
     padding: 10px;  
 }
@@ -237,6 +238,7 @@ img{
     background: #222;
     color: #fff;
     padding: 10px 0;
+    width: 100%;
 }
 #company h4{
     text-transform: uppercase;
@@ -284,6 +286,7 @@ img{
 #main-footer{
     background: #089c9c;
     color: #fff;
+    width: 100%;
 }
 #main-footer a{
     text-decoration: none;
@@ -315,6 +318,7 @@ img{
     padding-top: 10px;
 }
 #page{
+    width: 100%;
     margin-top: 100px;
     margin-bottom: 40px;
     background-color: #fff;
